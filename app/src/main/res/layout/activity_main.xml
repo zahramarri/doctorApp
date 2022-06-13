@@ -9,7 +9,7 @@
     <Button
         android:id="@+id/buttonDoctor1"
         android:layout_width="match_parent"
-        android:layout_height="145dp"
+        android:layout_height="0dp"
         android:layout_marginHorizontal="10dp"
         android:text="@string/buttonDoctor1"
         android:textSize="25sp"
@@ -23,7 +23,7 @@
     <Button
         android:id="@+id/buttonDoctor2"
         android:layout_width="match_parent"
-        android:layout_height="145dp"
+        android:layout_height="0dp"
         android:layout_marginHorizontal="10dp"
         android:text="@string/buttonDoctor2"
         android:textSize="25sp"
@@ -37,7 +37,7 @@
     <Button
         android:id="@+id/buttonDoctor3"
         android:layout_width="match_parent"
-        android:layout_height="145dp"
+        android:layout_height="0dp"
         android:layout_marginHorizontal="10dp"
         android:text="@string/buttonDoctor3"
         android:textSize="25sp"
@@ -51,7 +51,7 @@
     <Button
         android:id="@+id/buttonDoctor4"
         android:layout_width="match_parent"
-        android:layout_height="145dp"
+        android:layout_height="0dp"
         android:layout_marginHorizontal="10dp"
         android:text="@string/buttonDoctor4"
         android:textSize="25sp"
@@ -65,7 +65,7 @@
     <Button
         android:id="@+id/buttonDoctor5"
         android:layout_width="match_parent"
-        android:layout_height="145dp"
+        android:layout_height="0dp"
         android:layout_marginHorizontal="10dp"
         android:text="@string/buttonDoctor5"
         android:textSize="25sp"
