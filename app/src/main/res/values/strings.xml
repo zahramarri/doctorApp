@@ -8,4 +8,8 @@
     <string name="textViewName">مریم غیاثی</string>
     <string name="textViewAddress">تهران</string>
     <string name="textViewPhoneNumber">+۹۸۹۱۲۱۲۱۲۱۲۱</string>
+    <string name="materialButton1">آدرس مطب</string>
+    <string name="materialButton2">مشاوره آنلاین</string>
+    <string name="materialButton3">سوابق حرفه ای</string>
+    <string name="materialButton4">نظرات مراجعین</string>
 </resources>

@@ -19,13 +19,14 @@
 
     <ImageView
         android:id="@+id/imageViewIllustration"
-        android:layout_width="257dp"
-        android:layout_height="340dp"
+        android:layout_width="207dp"
+        android:layout_height="307dp"
         android:src="@drawable/image_illustration"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageViewProfile" />
+        app:layout_constraintTop_toBottomOf="@+id/imageViewProfile"
+        app:layout_constraintVertical_bias="0.128" />
 
     <TextView
         android:id="@+id/textViewName"
@@ -57,5 +58,76 @@
         app:layout_constraintBottom_toBottomOf="@+id/imageViewProfile"
         app:layout_constraintEnd_toEndOf="@id/textViewName"
         app:layout_constraintTop_toBottomOf="@+id/textViewAddress" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/materialButton1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:fontFamily="@font/lalezar"
+        android:text="@string/materialButton1"
+        app:cornerRadius="15dp"
+        app:icon="@android:drawable/ic_dialog_map"
+        app:iconGravity="top"
+        app:iconSize="20dp"
+        app:layout_constraintDimensionRatio="h,1:1"
+        app:layout_constraintEnd_toStartOf="@+id/materialButton2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/imageViewIllustration"
+        app:layout_constraintTop_toBottomOf="@id/imageViewIllustration" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/materialButton2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/lalezar"
+        android:text="@string/materialButton2"
+        app:cornerRadius="15dp"
+        app:icon="@android:drawable/stat_sys_speakerphone"
+        app:iconGravity="top"
+        app:iconSize="20dp"
+        app:layout_constraintDimensionRatio="h,1:1"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewIllustration"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/materialButton1"
+        app:layout_constraintTop_toBottomOf="@id/imageViewIllustration" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/materialButton3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/lalezar"
+        android:text="@string/materialButton3"
+        app:cornerRadius="15dp"
+        app:icon="?android:attr/actionModeFindDrawable"
+        app:iconGravity="top"
+        app:iconSize="25dp"
+        app:layout_constraintDimensionRatio="h,1:1"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewIllustration"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/materialButton4"
+        app:layout_constraintTop_toBottomOf="@+id/materialButton2" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/materialButton4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:fontFamily="@font/lalezar"
+        android:text="@string/materialButton4"
+        app:cornerRadius="15dp"
+        app:icon="@android:drawable/ic_dialog_email"
+        app:iconGravity="top"
+        app:iconSize="20dp"
+        app:layout_constraintDimensionRatio="h,1:1"
+        app:layout_constraintEnd_toStartOf="@+id/materialButton3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/imageViewIllustration"
+        app:layout_constraintTop_toBottomOf="@id/materialButton1" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
