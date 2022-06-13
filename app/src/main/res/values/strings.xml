@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">doctorApp</string>
+    <string name="buttonDoctor1">Helen Brown</string>
+    <string name="buttonDoctor2">doctor 2</string>
+    <string name="buttonDoctor3">doctor 3</string>
+    <string name="buttonDoctor4">doctor 4</string>
+    <string name="buttonDoctor5">doctor 5</string>
 </resources>
