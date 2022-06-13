@@ -1,8 +1,11 @@
 <resources>
     <string name="app_name">doctorApp</string>
-    <string name="buttonDoctor1">Helen Brown</string>
-    <string name="buttonDoctor2">doctor 2</string>
-    <string name="buttonDoctor3">doctor 3</string>
-    <string name="buttonDoctor4">doctor 4</string>
-    <string name="buttonDoctor5">doctor 5</string>
+    <string name="buttonDoctor1">مریم غیاثی</string>
+    <string name="buttonDoctor2">دکتر ۲</string>
+    <string name="buttonDoctor3">دکتر ۳</string>
+    <string name="buttonDoctor4">دکتر ۴</string>
+    <string name="buttonDoctor5">دکتر ۵</string>
+    <string name="textViewName">مریم غیاثی</string>
+    <string name="textViewAddress">تهران</string>
+    <string name="textViewPhoneNumber">+۹۸۹۱۲۱۲۱۲۱۲۱</string>
 </resources>
