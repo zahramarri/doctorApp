@@ -3,7 +3,6 @@ package com.learning.doctorapp
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.View
 import com.learning.doctorapp.databinding.ActivityMainBinding
 
 const val EXTRA_NAME = "doctor"

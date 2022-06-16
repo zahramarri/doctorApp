@@ -6,25 +6,33 @@ object Hospital {
     fun loadTestData() {
         listOfDoctors.clear()
 
-        val doctor1 = Doctor(10001,
+        val doctor1 = Doctor(
+            10001,
             "محمد اکبری",
             "ایران، تهران",
-            "+۹۸۹۱۲۱۲۳۱۲۳۱")
+            "+۹۸۹۱۲۱۲۳۱۲۳۱"
+        )
 
-        val doctor2 = Doctor(10002,
+        val doctor2 = Doctor(
+            10002,
             "صادق اصغری",
             "ایران، مشهد",
-            "+۹۸۹۱۲۱۲۳۱۲۳۲")
+            "+۹۸۹۱۲۱۲۳۱۲۳۲"
+        )
 
-        val doctor3 = Doctor(10003,
+        val doctor3 = Doctor(
+            10003,
             "امین شجاعی",
             "ایران، تبریز",
-            "+۹۸۹۱۲۱۲۳۱۲۳۳")
+            "+۹۸۹۱۲۱۲۳۱۲۳۳"
+        )
 
-        val doctor4 = Doctor(10004,
+        val doctor4 = Doctor(
+            10004,
             "مریم غیاثی",
             "ایران، قزوین",
-            "+۹۸۹۱۲۱۲۳۱۲۳۴")
+            "+۹۸۹۱۲۱۲۳۱۲۳۴"
+        )
 
         listOfDoctors.add(doctor1)
         listOfDoctors.add(doctor2)

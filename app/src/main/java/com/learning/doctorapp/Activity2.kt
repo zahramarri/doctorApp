@@ -5,7 +5,7 @@ import android.os.Bundle
 import com.learning.doctorapp.databinding.Activity2Binding
 
 class Activity2 : AppCompatActivity() {
-    lateinit var binding: Activity2Binding
+    private lateinit var binding: Activity2Binding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = Activity2Binding.inflate(layoutInflater)
