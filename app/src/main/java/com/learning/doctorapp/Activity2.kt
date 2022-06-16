@@ -13,7 +13,7 @@ class Activity2 : AppCompatActivity() {
 
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
-        val doctor = intent.getSerializableExtra(EXTRA_NAME) as Doctor
+        val doctor = intent.getParcelableExtra<Doctor>(EXTRA_NAME) as Doctor
         binding.textViewName.text = doctor.name
         binding.textViewAddress.text = doctor.address
         binding.textViewPhoneNumber.text = doctor.phoneNumber
