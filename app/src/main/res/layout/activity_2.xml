@@ -35,7 +35,6 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="16dp"
         android:fontFamily="@font/lalezar"
-        android:text="@string/textViewName"
         app:layout_constraintBottom_toTopOf="@+id/textViewAddress"
         app:layout_constraintEnd_toStartOf="@id/imageViewProfile"
         app:layout_constraintTop_toTopOf="@+id/imageViewProfile" />
@@ -45,7 +44,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/lalezar"
-        android:text="@string/textViewAddress"
         app:layout_constraintBottom_toTopOf="@+id/textViewPhoneNumber"
         app:layout_constraintEnd_toEndOf="@id/textViewName"
         app:layout_constraintTop_toBottomOf="@+id/textViewName" />
@@ -55,7 +53,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/lalezar"
-        android:text="@string/textViewPhoneNumber"
         app:layout_constraintBottom_toBottomOf="@+id/imageViewProfile"
         app:layout_constraintEnd_toEndOf="@id/textViewName"
         app:layout_constraintTop_toBottomOf="@+id/textViewAddress" />
