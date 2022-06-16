@@ -6,6 +6,8 @@ import android.os.Bundle
 import android.view.View
 import com.learning.doctorapp.databinding.ActivityMainBinding
 
+const val EXTRA_NAME = "doctor"
+
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -21,25 +23,25 @@ class MainActivity : AppCompatActivity() {
 
 
         binding.buttonDoctor2.setOnClickListener {
-            goToActivity2(Hospital.listOfDoctors[0].iD)
+            goToActivity2(Hospital.listOfDoctors[0])
         }
 
         binding.buttonDoctor3.setOnClickListener {
-            goToActivity2(Hospital.listOfDoctors[1].iD)
+            goToActivity2(Hospital.listOfDoctors[1])
         }
 
         binding.buttonDoctor4.setOnClickListener {
-            goToActivity2(Hospital.listOfDoctors[2].iD)
+            goToActivity2(Hospital.listOfDoctors[2])
         }
 
         binding.buttonDoctor5.setOnClickListener {
-            goToActivity2(Hospital.listOfDoctors[3].iD)
+            goToActivity2(Hospital.listOfDoctors[3])
         }
     }
 
-    private fun goToActivity2(doctorId: Int) {
+    private fun goToActivity2(doctor: Doctor) {
         val intent = Intent(this, Activity2::class.java)
-        intent.putExtra("doctor's ID", doctorId)
+        intent.putExtra(EXTRA_NAME, doctor)
         startActivity(intent)
     }
 }

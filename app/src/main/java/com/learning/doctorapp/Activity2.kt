@@ -13,13 +13,10 @@ class Activity2 : AppCompatActivity() {
 
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
-        val iD = intent.getIntExtra("doctor's ID", 0)
-        for (doctor in Hospital.listOfDoctors) {
-            if (doctor.iD == iD) {
-                binding.textViewName.text = doctor.name
-                binding.textViewAddress.text = doctor.address
-                binding.textViewPhoneNumber.text = doctor.phoneNumber
-            }
-        }
+        val doctor = intent.getSerializableExtra(EXTRA_NAME) as Doctor
+        binding.textViewName.text = doctor.name
+        binding.textViewAddress.text = doctor.address
+        binding.textViewPhoneNumber.text = doctor.phoneNumber
+
     }
 }
