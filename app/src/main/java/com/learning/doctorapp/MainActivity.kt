@@ -14,9 +14,9 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         Hospital.loadTestData()
-        binding.buttonDoctor2.text = Hospital.listOfDoctors[0].toString()
-        binding.buttonDoctor3.text = Hospital.listOfDoctors[1].toString()
-        binding.buttonDoctor4.text = Hospital.listOfDoctors[2].toString()
+        binding.buttonDoctor2.text = Hospital.listOfDoctors[0].name
+        binding.buttonDoctor3.text = Hospital.listOfDoctors[1].name
+        binding.buttonDoctor4.text = Hospital.listOfDoctors[2].name
 
 
         binding.buttonDoctor1.setOnClickListener(::goToActivity2)
