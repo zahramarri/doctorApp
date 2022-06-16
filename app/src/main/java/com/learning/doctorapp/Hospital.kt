@@ -1,7 +1,7 @@
 package com.learning.doctorapp
 
 object Hospital {
-    private val listOfDoctors: MutableList<Doctor> = mutableListOf()
+    val listOfDoctors: MutableList<Doctor> = mutableListOf()
 
     fun loadTestData() {
         listOfDoctors.clear()
