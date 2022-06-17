@@ -1,7 +1,7 @@
 package com.learning.doctorapp
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import com.learning.doctorapp.databinding.Activity2Binding
 
 class Activity2 : AppCompatActivity() {
