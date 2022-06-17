@@ -6,6 +6,14 @@
     android:layout_height="match_parent"
     tools:context=".Activity2">
 
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragment_container_view"
+        android:name="com.learning.doctorapp.DoctorInfoFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <ImageView
         android:id="@+id/imageViewProfile"
         android:layout_width="91dp"
