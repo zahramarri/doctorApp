@@ -14,9 +14,14 @@ class Activity2 : AppCompatActivity() {
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
         val doctor = intent.getParcelableExtra<Doctor>(EXTRA_NAME) as Doctor
-        binding.textViewName.text = doctor.name
-        binding.textViewAddress.text = doctor.address
-        binding.textViewPhoneNumber.text = doctor.phoneNumber
+
+        val fragmentManager = supportFragmentManager
+        val fragmentTransaction = fragmentManager.beginTransaction()
+        val doctorInfoFragment = DoctorInfoFragment()
+        val bundle = Bundle()
+        bundle.putParcelable(EXTRA_NAME, doctor)
+        doctorInfoFragment.arguments = bundle
+        fragmentTransaction.add(R.id.fragment_container_view, doctorInfoFragment).commit()
 
     }
 }
